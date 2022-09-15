@@ -28,43 +28,43 @@ export default function AddSmartPhone() {
                                             <th scope="row">1</th>
                                             <td>Name</td>
                                             <td>:</td>
-                                            <td><input type="text" class="form-control" id="inputState" onChange={(e) => { setData({ ...mobile, SmartPhoneName: e.target.value }) }} /></td>
+                                            <td><input type="text" class="form-control" id="inputname" onChange={(e) => { setData({ ...mobile, SmartPhoneName: e.target.value }) }} /></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
                                             <td>SmartPhoneModel</td>
                                             <td>:</td>
-                                            <td><input type="text" class="form-control" id="inputState" onChange={(e) => { setData({ ...mobile, SmartPhoneModel: e.target.value }) }} /></td>
+                                            <td><input type="text" class="form-control" id="inputmodel" onChange={(e) => { setData({ ...mobile, SmartPhoneModel: e.target.value }) }} /></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
                                             <td>SmartPhoneMaker</td>
                                             <td>:</td>
-                                            <td><input type="text" class="form-control" id="inputState" onChange={(e) => { setData({ ...mobile, SmartPhoneMaker: e.target.value }) }} /></td>
+                                            <td><input type="text" class="form-control" id="inputmaker" onChange={(e) => { setData({ ...mobile, SmartPhoneMaker: e.target.value }) }} /></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">4</th>
                                             <td>SmartPhoneDescription</td>
                                             <td>:</td>
-                                            <td><input type="text" class="form-control" id="inputState" onChange={(e) => { setData({ ...mobile, SmartPhoneDescription: e.target.value }) }} /></td>
+                                            <td><input type="text" class="form-control" id="inputdescription" onChange={(e) => { setData({ ...mobile, SmartPhoneDescription: e.target.value }) }} /></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">5</th>
                                             <td>SmartPhonePrice</td>
                                             <td>:</td>
-                                            <td><input type="text" class="form-control" id="inputState" onChange={(e) => { setData({ ...mobile, SmartPhonePrice: e.target.value }) }} /></td>
+                                            <td><input type="text" class="form-control" id="inputprice" onChange={(e) => { setData({ ...mobile, SmartPhonePrice: e.target.value }) }} /></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">6</th>
                                             <td>SmartPhoneId</td>
                                             <td>:</td>
-                                            <td><input type="text" class="form-control" id="inputState" onChange={(e) => { setData({ ...mobile, SmartPhoneId: e.target.value }) }} /></td>
+                                            <td><input type="text" class="form-control" id="inputid" onChange={(e) => { setData({ ...mobile, SmartPhoneId: e.target.value }) }} /></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">7</th>
                                             <td>SmartPhoneImage</td>
                                             <td>:</td>
-                                            <td><input type="text" class="form-control" id="inputState" onChange={(e) => { setData({ ...mobile, SmartPhoneImage: e.target.value }) }} /></td>
+                                            <td><input type="text" class="form-control" id="inputimage" onChange={(e) => { setData({ ...mobile, SmartPhoneImage: e.target.value }) }} /></td>
                                         </tr>
                                     </tbody>
 
