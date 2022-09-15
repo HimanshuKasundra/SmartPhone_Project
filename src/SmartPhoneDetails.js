@@ -21,8 +21,6 @@ export default function SmartPhoneDetails() {
 
     return (
         <>
-            
-
             <div class="card mb-3">
                 <div className="col-md-12 my-2 mx-4 d-flex justify-content-center">
 
