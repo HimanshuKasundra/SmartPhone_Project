@@ -6,7 +6,7 @@ export default function Contact()
                 <div class="row g-4 ">
                     <div class="col-xxl-5 col-xl-4 col-lg-5 col-md-3 col-sm-12">
 
-                        <img src="https://github.com/Nevilpala/live/blob/main/website/html/parallo/img/call-to-action-3.jpg?raw=true" class="img-fluid h-100" />
+                        <img src="https://media.istockphoto.com/photos/contact-us-picture-id1372286955?b=1&k=20&m=1372286955&s=170667a&w=0&h=bFk8BdAp9A-9YHJdWJMzulEihAbq74FX3IN8LMeTQus=" class="img-fluid h-100" />
 
                     </div>
                     <div class="col-xxl col-xl col-lg col-md col-sm-12">
@@ -72,7 +72,7 @@ export default function Contact()
 
                                                     <div class="md-form">
                                                     <label for="message">Your message:-</label>
-                                                        <textarea type="text" id="message" name="Enter Your message" rows="2" class="form-control md-textarea"></textarea>
+                                                        <textarea type="text" id="message" name="Enter Your essage" rows="2" class="form-control md-textarea"></textarea>
                                                        
                                                     </div>
 
