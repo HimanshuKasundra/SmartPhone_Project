@@ -9,6 +9,7 @@ import Smartphone from './Smartphone';
 import SmartPhoneDetails from './SmartPhoneDetails';
 import SmartPhoneEdit from './SmartPhoneEdit';
 import AddSmartPhone from './AddSmartPhone';
+import { Outlet } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout/>}>
+        <Route index element={<Home />}/>
           <Route path='/home' element={<Home/>}></Route>
           <Route path='/about' element={<About/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>

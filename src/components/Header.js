@@ -24,7 +24,7 @@ function Header()
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="../smartphone/add"><h5>Add SmartPhones</h5></Link>
+                  <Link className="nav-link active" aria-current="page" to="../smartphone/add"><h5>Add_SmartPhones</h5></Link>
                 </li>
                
                 <li className="nav-item">

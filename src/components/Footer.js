@@ -4,14 +4,12 @@ function Footer()
 {
     return(
         <>
-        <div class="card text-center">
-         <div class="card-header">
-           Featured
-         </div>
+        <div class="card text-center ">
+         
          <div class="card-body">
-           <h5 class="card-title">Special title treatment</h5>
+           <h3 class="card-title">UMIYA MOBILES</h3>
            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
+          
          </div>
          <div class="news_content">
            <div class="news_date">OCT 27, 2024</div>
@@ -21,21 +19,20 @@ function Footer()
  
          <ul class="nav flex-column">
            <li class="nav-item">
-            <Link className="nav-link active" to="./about">About Us</Link>
+            <Link className="nav-link active" to="./contact">Contact Us</Link>
            </li>
-           <li class="nav-item">
-           <Link className="nav-link active" to="./contact">Contact us</Link>
-           </li>
-           <li class="nav-item">
+           {/* <li class="nav-item">
              <a class="nav-link" href="#">LOG In</a>
-           </li>
+           </li> */}
            <li class="nav-item">
              <a class="nav-link disabled">Company rules and reglulations</a>
            </li>
          </ul>
-         <div class="card-footer text-muted">
- 
+        
+         <div class="card-header">
+          Copyright © 2022 ,Umiya Mobiles Limited  
          </div>
+        
        </div>
      </>
     )
